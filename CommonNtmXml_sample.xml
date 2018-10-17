@@ -1,39 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="GeoRSS.xsl"?>
-<NoticeToMarinerList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CommonNtmXml.xsd">
-	<countryISO3166-1>FI</countryISO3166-1>
-	<creationDate>2018-10-03</creationDate>
+<NoticeToMarinerList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="CommonNtmXml.xsd">
 	<languageISO639-3>EN</languageISO639-3>
+	<countryISO3166-1>FI</countryISO3166-1>
+	<producingAgencyS62>160</producingAgencyS62>
+	<creationDate>2018-10-03</creationDate>
 	<notices>
 		<notice>
+			<noticeIdentifier>
+				<noticeNumber>100</noticeNumber>
+				<sequenceNumber>12</sequenceNumber>
+				<noticeYear>2018</noticeYear>
+				<noticeType>Temporary</noticeType>
+			</noticeIdentifier>
+			<noticeDatePublished>2018-10-02</noticeDatePublished>
+			<noticeStatus>Published</noticeStatus>
+			<noticeOriginal>true</noticeOriginal>
+			<noticeOriginalSource>FTA, Helsinki</noticeOriginalSource>
+			<!-- ADD: All charts are added once to the beginning of the notice -->
+			<charts>
+				<chartProduct>
+					<productTitle>57</productTitle>
+					<productIntNumber>9876</productIntNumber>
+					<productEditionDate>2016-01-01</productEditionDate>
+					<productEditionName>4</productEditionName>
+					<productLastCorrection>
+						<noticeNumber>100</noticeNumber>
+						<noticeYear>2018</noticeYear>
+						<noticeType>Temporary</noticeType>
+					</productLastCorrection>
+					<panels>
+						<chartPanel  ID="FI9876_1">
+							<panelName>57.1</panelName>
+							<horizontalDatumEPSG>4326</horizontalDatumEPSG>
+						</chartPanel>
+						<chartPanel ID="FI9876_2">
+							<panelName>57.2</panelName>
+							<horizontalDatumEPSG>4326</horizontalDatumEPSG>
+						</chartPanel>
+					</panels>
+				</chartProduct>
+			</charts>
 			<contents>
 				<content>
 					<chartCorrectionContent>
-						<charts>
-							<chartProduct>
-								<panels>
-									<chartPanel>
-										<horizontalDatumEPSG>4326</horizontalDatumEPSG>
-										<panelName>57.1</panelName>
-									</chartPanel>
-									<chartPanel>
-										<horizontalDatumEPSG>4326</horizontalDatumEPSG>
-										<panelName>57.2</panelName>
-									</chartPanel>
-								</panels>
-								<productEditionDate>2016-01-01</productEditionDate>
-								<productEditionName>4</productEditionName>
-								<productIntNumber>9876</productIntNumber>
-								<productLastCorrection>
-									<noticeNumber>100</noticeNumber>
-									<noticeType>Temporary</noticeType>
-									<noticeYear>2018</noticeYear>
-								</productLastCorrection>
-								<productTitle>57</productTitle>
-							</chartProduct>
-						</charts>
+					   <!-- ADD: Chart PANELS are referred for each content -->
+					   <chartRefs>
+							<chartRef IDREF="FI9876_1"/>
+							<chartRef IDREF="FI9876_2"/>
+						</chartRefs>
 						<contentNumber>1</contentNumber>
 						<chartcorrectionAction>Insert</chartcorrectionAction>
+						<symbols>
+							<symbol>
+								<alternativeProvision>
+									<fileBasedSymbol>
+										<symbolFormat>PNG</symbolFormat>
+										<fileLocator>http://www.example.com/symbol001.png</fileLocator>
+									</fileBasedSymbol>
+								</alternativeProvision>
+							</symbol>
+							<symbol>
+								<alternativeProvision>
+									<trueTypeFontSymbol>
+										<trueTypeFontFile>http://www.example.com/customfont.ttf</trueTypeFontFile>
+										<trueTypeFontName>HO_custom</trueTypeFontName>
+										<trueTypeFontText>xyz</trueTypeFontText>
+									</trueTypeFontSymbol>
+								</alternativeProvision>
+							</symbol>
+						</symbols>
 						<externalContents/>
 						<positions>
 							<position>
@@ -48,39 +84,9 @@
 								</positionPoint>
 							</position>
 						</positions>
-						<symbols>
-							<symbol>
-								<alternativeProvision>
-									<fileBasedSymbol>
-										<fileLocator>http://www.example.com/symbol001.png</fileLocator>
-										<symbolFormat>PNG</symbolFormat>
-									</fileBasedSymbol>
-								</alternativeProvision>
-							</symbol>
-							<symbol>
-								<alternativeProvision>
-									<trueTypeFontSymbol>
-										<trueTypeFontFile>http://www.example.com/customfont.ttf</trueTypeFontFile>
-										<trueTypeFontName>HO_custom</trueTypeFontName>
-										<trueTypeFontText>xyz</trueTypeFontText>
-									</trueTypeFontSymbol>
-								</alternativeProvision>
-							</symbol>
-						</symbols>
 					</chartCorrectionContent>
 				</content>
 			</contents>
-			<noticeDatePublished>2018-10-02</noticeDatePublished>
-			<noticeIdentifier>
-				<noticeNumber>100</noticeNumber>
-				<noticeType>Temporary</noticeType>
-				<noticeYear>2018</noticeYear>
-				<sequenceNumber>12</sequenceNumber>
-			</noticeIdentifier>
-			<noticeOriginal>true</noticeOriginal>
-			<noticeOriginalSource>FTA, Helsinki</noticeOriginalSource>
-			<noticeStatus>Published</noticeStatus>
 		</notice>
 	</notices>
-	<producingAgencyS62>160</producingAgencyS62>
 </NoticeToMarinerList>
