@@ -380,7 +380,7 @@ The combination of noticeNumber, sequenceNumber and noticeYear must be unique wi
 					<xs:documentation>Product edition id, name or other identification, if used additionally to edition date.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="productLastCorrection" type="noticeIdentifier" minOccurs="1" maxOccurs="1">
+			<xs:element name="productLastCorrection" type="noticeIdentifier" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>The last correction applied to this product.</xs:documentation>
 				</xs:annotation>
