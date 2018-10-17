@@ -452,6 +452,11 @@ The combination of noticeNumber, sequenceNumber and noticeYear must be unique wi
 			<xs:documentation>The class NoticeToMariner holds one single notice, as identified by a unique combination of a number, optional sequence and year.</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
+			<xs:element name="area" type="xs:string" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>The area.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="region" type="xs:string" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>The region.</xs:documentation>
@@ -478,11 +483,6 @@ The combination of noticeNumber, sequenceNumber and noticeYear must be unique wi
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="noticeOriginal" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="area" type="xs:string" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation>The area.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
 			<xs:element name="noticeOriginalSource" type="xs:string" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>The original source of the data.</xs:documentation>
