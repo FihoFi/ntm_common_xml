@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="GeoRSS.xsl"?>
 <NoticeToMarinerList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="CommonNtmXml.xsd">
 	<languageISO639-3>EN</languageISO639-3>
 	<countryISO3166-1>FI</countryISO3166-1>
