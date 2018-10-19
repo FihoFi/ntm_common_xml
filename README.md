@@ -1,5 +1,9 @@
 # ntm_common_xml
-An XML- data model for Notices to Mariners
+An XML- data model for Notices to Mariners. This development work is the result of the [IHO](http://www.iho.int) [NIPWG](https://www.iho.int/srv1/index.php?option=com_content&view=article&id=628&Itemid=980&lang=en) initiative to create a common format for chart-corrections to facilitate sharing and re-using this data among Hydrographic offices. 
+The development of a common data model and XSD was initiated at the [XML- workshop](https://www.iho.int/mtg_docs/com_wg/NIPWG/WorkshopXMLNtM2018/WorkshopXMLNtM2018Docs.html) hosted by the Italian Hydrographic Institute in Genoa 1-2 October 2018.
+
+Futher discussions is found at the [NIPWG WIKI](http://wp12183585.server-he.de/npubwiki/wiki/index.php/NtM_Chart-correction_XML).
+For questions regarding this GitHub repository, please contact stefan.engstrom@fta.fi
 
 ### 2018-10-18
   * Uploaded a complete package with the changes in XSD- file since 0.0.3
