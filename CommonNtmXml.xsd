@@ -454,17 +454,18 @@ The combination of noticeNumber, sequenceNumber and noticeYear must be unique wi
 		<xs:sequence>
 			<xs:element name="area" type="xs:string" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
-					<xs:documentation>The area.</xs:documentation>
+					<xs:documentation>The area...or General Region. normally one of the following categories: Ocean/Sea or Country name (see
+						S-4 B-631.3).</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="region" type="xs:string" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
-					<xs:documentation>The region.</xs:documentation>
+					<xs:documentation>The region...or sub-region in S-4. For example: coast; gulf; island; river</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="vicinity" type="xs:string" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
-					<xs:documentation>The vicinity.</xs:documentation>
+					<xs:documentation>The vicinity or specific location according to S-4 (for example: port name; terminal).</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="noticeIdentifier" type="noticeIdentifier" minOccurs="1" maxOccurs="1">
