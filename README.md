@@ -5,6 +5,13 @@ The development of a common data model and XSD was initiated at the [XML- worksh
 Futher discussions is found at the [NIPWG WIKI](http://wp12183585.server-he.de/npubwiki/wiki/index.php/NtM_Chart-correction_XML).
 For questions regarding this GitHub repository, please contact stefan.engstrom.traficom@gmail.com
 
+### 2020-01-20
+  * EA project refresh
+  * Open / Save EAP- project in version 12.0.1215
+  * New export of separate PNG- UML image
+  * New export of XSD- file. (Note! Untick: Tools -> Options -> Objects -> Sort features Alphabetically)
+  
+
 ### 2018-10-18
   * Uploaded a complete package with the changes in XSD- file since 0.0.3
    * Created release 0.0.4
