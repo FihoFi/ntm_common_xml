@@ -3,7 +3,7 @@ An XML- data model for Notices to Mariners. This development work is the result 
 The development of a common data model and XSD was initiated at the [XML- workshop](https://www.iho.int/mtg_docs/com_wg/NIPWG/WorkshopXMLNtM2018/WorkshopXMLNtM2018Docs.html) hosted by the Italian Hydrographic Institute in Genoa 1-2 October 2018.
 
 Futher discussions is found at the [NIPWG WIKI](http://wp12183585.server-he.de/npubwiki/wiki/index.php/NtM_Chart-correction_XML).
-For questions regarding this GitHub repository, please contact stefan.engstrom.traficom@gmail.com
+For questions regarding this GitHub repository, please contact stefan[dot]engstrom[a]traficom[dot]fi
 
 ### 2020-01-20
   * EA project refresh
